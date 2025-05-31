@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Formulaire d'inscription</title>
+   <link rel="stylesheet" href="styles/formulaire .css"/>
+</head>
+<body>
+<h1>Formulaire d'inscription</h1>
+
+  <form>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom"><br><br>
+
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom"><br><br>
+
+    <p>Sexe :</p>
+    <input type="radio" id="homme" name="sexe" value="Homme">
+    <label for="homme">Homme</label>
+    <input type="radio" id="femme" name="sexe" value="Femme">
+    <label for="femme">Femme</label><br><br>
+
+    <label for="nationalite">Nationalité :</label>
+    <select id="nationalite" name="nationalite">
+      <option>France</option>
+      <option>Allemagne</option>
+      <option>Italie</option>
+      <option>Espagne</option>
+      <option>Canada</option>
+      <option>Brésil</option>
+      <option>Sénégal</option>
+      <option>Maroc</option>
+      <option>Japon</option>
+      <option>Inde</option>
+    </select><br><br>
+
+    <p>Loisirs :</p>
+    <input type="checkbox" id="sport" name="loisir" value="Sport">
+    <label for="sport">Sport</label>
+    
+    <input type="checkbox" id="lecture" name="loisir" value="Lecture">
+    <label for="lecture">Lecture</label>
+    <input type="checkbox" id="musique" name="loisir" value="Musique">
+    <label for="musique">Musique</label>
+    <input type="checkbox" id="voyage" name="loisir" value="Voyage">
+    <label for="voyage">Voyage</label>
+    <input type="checkbox" id="cinema" name="loisir" value="Cinéma">
+    <label for="cinema">Cinéma</label><br><br>
+
+    <button type="submit">Valider</button>
+    <button type="reset">Réinitialiser</button>
+  </form>
+
+</body>
+</html>
